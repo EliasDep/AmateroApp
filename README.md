@@ -1,12 +1,17 @@
-# React + Vite
+# Amatero
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplicación web inspirada en la cultura del mate. Amatero busca transmitir la esencia de compartir, aprender y disfrutar el ritual del mate a través de una experiencia visual y moderna.
 
-Currently, two official plugins are available:
+## Características
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Diseño responsivo y amigable.
+- Sección informativa sobre cómo curar y preparar un mate.
+- Recomendaciones animadas para mejorar la experiencia matera.
+- Playlist de música integrada para disfrutar en compañía.
 
-## Expanding the ESLint configuration
+## Tecnologías Utilizadas
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+- HTML y CSS
+- React Icons
+- Embeds de Spotify
