@@ -1,0 +1,75 @@
+.section_recomendaciones {
+  padding: 6rem 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--background-color);
+}
+
+.recomendaciones_wrapper {
+  max-width: 1200px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.recomendaciones_title {
+  font-size: 3rem;
+  color: var(--text-color);
+  margin-bottom: 1rem;
+}
+
+.recomendaciones_subtitle {
+  font-size: 1.2rem;
+  color: var(--title-color);
+  margin-bottom: 3rem;
+}
+
+.recomendaciones_content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2.5rem;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.recomendaciones_img {
+  background: url('../../assets/mate-recomendaciones.jpg') no-repeat center;
+  background-size: cover;
+  width: 320px;
+  height: 320px;
+  border-radius: 1rem;
+}
+
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+  .recomendaciones_title {
+    font-size: 3rem;
+  }
+
+  .recomendaciones_subtitle {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  .recomendaciones_content {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .recomendaciones_img {
+    width: 260px;
+    height: 260px;
+  }
+}
+
+
+@media (max-width: 460px) {
+  .recomendaciones_title {
+    font-size: 2.5rem;
+  }
+}

@@ -1,0 +1,51 @@
+.section_compania {
+  padding: 6rem 2rem 4rem 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.compania_container {
+  max-width: 800px;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.compania_title {
+  font-size: 3rem;
+  color: var(--text-color);
+}
+
+.spotify_player iframe {
+  border-radius: 12px;
+  width: 100%;
+  max-width: 100%;
+  height: 352px;
+}
+
+.compania_description {
+  font-size: 1.2rem;
+  color: var(--title-color);
+  line-height: 1.6;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+  .section_compania {
+    padding: 4rem 1rem 3rem 1rem;
+  }
+
+  .compania_title {
+    font-size: 3rem;
+  }
+
+  .compania_description {
+    font-size: 1rem;
+  }
+}
