@@ -76,15 +76,12 @@
 }
 
 
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 555px) {
   .section_pasoapaso {
     margin-bottom: 5rem;
   }
-}
 
-
-@media screen and (max-width: 371px) {
   .pasoapaso_text {
-    margin-bottom: 0;
+    margin-bottom: -10rem;
   }
 }
