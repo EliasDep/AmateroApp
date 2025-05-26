@@ -65,6 +65,10 @@
     gap: 1rem;
   }
 
+  .slider_container {
+    margin-top: 3rem;
+  }
+
   .pasoapaso_text {
     margin-bottom: -14rem;
   }
