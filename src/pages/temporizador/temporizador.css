@@ -128,7 +128,7 @@
 }
 
 
-@media (max-width: 378px) {
+@media (max-width: 350px) {
   .temporizador_seccion_titulo {
     font-size: 2rem;
   }
