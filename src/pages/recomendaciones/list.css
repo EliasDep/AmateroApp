@@ -76,6 +76,11 @@
     max-width: 90%;
   }
 
+  .list-inner {
+  animation-duration: 80s;
+  }
+
+
   .icon-box {
     width: 36px;
     height: 36px;

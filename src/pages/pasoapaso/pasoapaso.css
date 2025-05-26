@@ -63,7 +63,10 @@
     flex-direction: column-reverse;
     text-align: center;
     gap: 1rem;
-    /*margin-bottom: -8rem;*/
+  }
+
+  .pasoapaso_text {
+    margin-bottom: -14rem;
   }
 
   .slider_container,
