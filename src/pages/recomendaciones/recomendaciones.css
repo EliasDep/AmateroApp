@@ -27,56 +27,50 @@
   margin-bottom: 3rem;
 }
 
-.recomendaciones_content {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 2.5rem;
-  flex-wrap: wrap;
+/* Grid de tarjetas */
+.recomendaciones_grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
   width: 100%;
+  justify-items: center;
 }
 
-.recomendaciones_img {
-  background: url('../../assets/mate-recomendaciones.jpg') no-repeat center;
-  background-size: cover;
-  width: 320px;
-  height: 320px;
+.recomendacion_card {
+  background-color: #fff;
+  padding: 2rem;
   border-radius: 1rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  text-align: center;
+  max-width: 320px;
 }
 
+.recomendacion_icon {
+  font-size: 2.5rem;
+  color: var(--title-color);
+  margin-bottom: 1rem;
+}
+
+.recomendacion_card h3 {
+  color: #000;
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+}
+
+.recomendacion_card p {
+  color: #666;
+  font-size: 1rem;
+}
 
 /* Responsive */
-@media screen and (max-width: 768px) {
-  .recomendaciones_title {
-    font-size: 3rem;
-  }
-
-  .recomendaciones_subtitle {
-    font-size: 1rem;
-    margin-bottom: 2rem;
-  }
-
-  .recomendaciones_content {
-    flex-direction: column;
-    gap: 2rem;
-  }
-
-  .recomendaciones_img {
-    width: 260px;
-    height: 260px;
+@media (max-width: 992px) {
+  .recomendaciones_grid {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
-
-@media (max-width: 465px) {
-  .recomendaciones_title {
-    font-size: 2.5rem;
-  }
-}
-
-
-@media (max-width: 390px) {
-  .recomendaciones_title {
-    font-size: 2rem;
+@media (max-width: 600px) {
+  .recomendaciones_grid {
+    grid-template-columns: 1fr;
   }
 }
